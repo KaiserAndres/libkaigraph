@@ -10,6 +10,8 @@
 
 #include <SDL2/SDL.h>
 #include <string>
+#include <list>
+#include <math.h>
 
 #include "Logger.h"
 
@@ -18,6 +20,9 @@ namespace kgr {
 class Display {
 public:
 	Display(std::string title, int width, int height);
+
+	void render_int_list(std::list<int> ls, int separation, SDL_Color c);
+
 	virtual ~Display();
 
 private:
