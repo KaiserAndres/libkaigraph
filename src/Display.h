@@ -15,6 +15,7 @@
 
 #include "Logger.h"
 #include "DataSet.h"
+#include "BarGraph.h"
 
 namespace kgr {
 
@@ -23,7 +24,7 @@ public:
 	Display(std::string title, int width, int height);
 
 	void render_int_list(DataSet s, int separation, SDL_Color c);
-
+	void render_barGraph(BarGraph b);
 	virtual ~Display();
 
 private:

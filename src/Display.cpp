@@ -51,6 +51,10 @@ void Display::render_int_list(DataSet s, int separation, SDL_Color c) {
 	}
 }
 
+void Display::render_barGraph(BarGraph b) {
+	b.draw(ren);
+}
+
 Display::~Display() {
 	SDL_DestroyRenderer(ren);
 	SDL_DestroyWindow(win);

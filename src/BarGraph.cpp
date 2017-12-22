@@ -43,7 +43,7 @@ void BarGraph::draw(SDL_Renderer *ren) {
 		i++;
 
 	    SDL_SetRenderDrawColor(ren, draw_color.r, draw_color.g, draw_color.b, draw_color.a);
-		SDL_RenderDrawRect(ren, &bar);
+		SDL_RenderFillRect(ren, &bar);
 	}
 }
 
