@@ -13,7 +13,7 @@ DataSet::DataSet(std::list<int> ls, std::string x_label, std::string y_label) {
 	list = ls;
 	this->x_label = x_label;
 	this->y_label = y_label;
-	min_val = NULL; // TODO find a way to have clear defaut values for the empty set,
+	min_val = NULL; // TODO find a way to have clear default values for the empty set,
 	max_val = NULL; // -∞ would be mathematically correct.
 
 	int i = 0;
