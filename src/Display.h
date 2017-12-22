@@ -24,6 +24,7 @@ public:
 	Display(std::string title, int width, int height);
 
 	void render_barGraph(BarGraph b);
+
 	virtual ~Display();
 
 private:

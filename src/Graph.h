@@ -8,17 +8,11 @@
 #ifndef GRAPH_H_
 #define GRAPH_H_
 
-#import "DataSet.h"
+#include "DataSet.h"
+#include <helper.h>
 #include <SDL2/SDL.h>
 
 namespace kgr {
-
-const SDL_Color WHITE = {255, 255, 255, 0};
-
-struct Point {
-	int x;
-	int y;
-};
 
 class Graph {
 public:
